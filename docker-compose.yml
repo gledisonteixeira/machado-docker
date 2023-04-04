@@ -16,7 +16,7 @@ services:
     image: elasticsearch:7.17.9
     environment:
       - discovery.type=single-node
-    mem_limit: 1Gb
+    #mem_limit: 1Gb
     ulimits:
       nofile:
         soft: 65536
